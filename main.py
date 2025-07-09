@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from dotenv import load_dotenv
 import os
 import requests
@@ -20,4 +22,4 @@ def enviar_alerta(mensagem):
     print(f"Resposta: {response.status_code}, {response.text}")
 
 if __name__ == "__main__":
-    enviar_alerta("?? *Alerta de Teste Tex*\nServidor no Render est� online e pronto para sinais!")
+    enviar_alerta("🚨 *Alerta de Teste Tex*\nServidor no Render está online e pronto para sinais!")
